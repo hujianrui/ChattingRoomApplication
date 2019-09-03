@@ -1,0 +1,6 @@
+FROM java:8
+WORKDIR hujianrui/WebChatServer/
+ADD target/WebChatServer-0.0.1-SNAPSHOT.jar ChatSever.jar
+ADD target/resources resources/
+EXPOSE 8080
+CMD java -jar ChatServer.jar
