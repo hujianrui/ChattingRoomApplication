@@ -1,0 +1,10 @@
+<body id="ChatRoom">
+    <p>Chat History</p>
+    <div id="div">
+    </div>
+    <p id='info'></p>
+    Message:<br>
+    <input type="text" id="Message" onkeydown="if(event.keyCode == 13) {send();}"/><br>
+    <input type="button" onclick="send()" value="Send">
+    <input type="button" onclick="exit()" value="Exit">
+</body>
